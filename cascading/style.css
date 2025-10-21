@@ -20,6 +20,11 @@ body
     color:antiquewhite;
     
 }
+img{
+    width: 550px;
+    height: 700px;
+    clip-path: circle(40%);
+}
 header{
     margin-top: 20px;
     position: fixed;
@@ -125,7 +130,7 @@ p{
 }
 .home-img img{
     position: relative;
-    width:32vw;
+    width: 32vw;
     border-radius: 50%;
     box-shadow: 0 0 25px solid #BC13FE;
     cursor: pointer;
@@ -225,3 +230,4 @@ p{
     }
 
 }
+
