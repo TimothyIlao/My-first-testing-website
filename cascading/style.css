@@ -131,8 +131,8 @@ p{
 }
 .home-img img{
     position: relative;
-    width:31vw;
-    border-radius: 50%;
+    width:30vw;
+    border-radius: 30%;
     box-shadow: 0 0 25px solid #BC13FE;
     cursor: pointer;
     transition: 0.2s linear;
@@ -230,4 +230,5 @@ p{
         width:70vw;
         margin-top:4rem;
     }
+
 }
