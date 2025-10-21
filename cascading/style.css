@@ -20,11 +20,6 @@ body
     color:antiquewhite;
     
 }
-img{
-    width: 550px;
-    height: 700px;
-    clip-path: circle(40%);
-}
 header{
     margin-top: 20px;
     position: fixed;
@@ -39,12 +34,11 @@ header{
     padding: 1rem 9%;
     filter: drop-shadow(10px);
 }
-
 html{
     font-size: 65.5%;
 }
 .logo{
-    font-size: 6rem;
+    font-size: 3rem;
     color: #BC13FE;
     cursor: pointer;
     transition: 0.5s ease;
@@ -59,15 +53,16 @@ nav a{
     font-size: 1.8rem;
     color: aliceblue;
     margin-left: 4rem;
-    font-weight: 499;
+    font-weight: 500;
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
 }
 nav a:hover,
 nav a.active{
-    color:#BC13FE
+    color:#BC13FE;
+    border-bottom:2px solid #BC13FE;
 }
-@media(max-width:990px){
+@media(max-width:995px){
     nav{
         position:absolute;
         display: none;
@@ -76,6 +71,7 @@ nav a.active{
         width: 40%;
         border-left:3px solid #BC13FE;
         border-bottom: 3px solid #BC13FE;
+        border-bottom-left-radius: 2rem;
         background-color: black;
         padding: 1rem solid;
         border-top: 0.1rem solid rgba(0,0,0,1);
@@ -90,7 +86,7 @@ nav a.active{
         display:block;
     }
 
-    nav.a:hover
+    nav.a:hover,
     nav.a.active{
         border-radius:0.5rem;
         padding:1rem;
@@ -105,7 +101,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 7.5rem;
+    gap: 8rem;
     background-color: black
 }
 .home .home-content h1{
@@ -116,13 +112,18 @@ section{
 span{
     color:#BC13FE;
 }
+.home-content h3{
+    font-size: 4rem;
+    margin-bottom:1rem;
+    font-weight: 700;
+}
 .typing-text{
      font-size: 4rem;
     font-weight: 695;
     margin-bottom:1rem;
 }
 p{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .home-img{
@@ -130,13 +131,13 @@ p{
 }
 .home-img img{
     position: relative;
-    width: 32vw;
+    width:31vw;
     border-radius: 50%;
     box-shadow: 0 0 25px solid #BC13FE;
     cursor: pointer;
     transition: 0.2s linear;
 }
-.home-img:hover{
+.home-img img:hover{
     font-size: 1.8rem;
     font-weight: 500;
 }
@@ -144,8 +145,8 @@ p{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 7rem;
-    height: 7rem;
+    width: 4rem;
+    height: 4rem;   
     background-color: transparent;
     border: 0.2rem solid #BC13FE ;
     border-radius: 50%;
@@ -161,15 +162,15 @@ p{
     transform: scale(1.3)translateY(-5px);
 }
 .butn{
-    letter-spacing: 0.5;
+    letter-spacing: 5;
     display:inline-block;
     padding: 1rem 2.8rem;
     background-color: black;
     border-radius: 3rem;
     color:#BC13FE;
-    font-size: 1.5rem;
+    font-size:2rem;
     font-family: 'press start 2p', cursive;
-    border: 1px solid #BC13FE;
+    border: 1.5px solid #BC13FE;
     transition: 0.2s ease;
     cursor: pointer;
 }
@@ -208,27 +209,27 @@ p{
             content:"College student"
         }
     }
-@media(max-width:999px){
+@media(max-width:1000px){
     .home{
         gap: 4rem;
     }
  }
-@media(max-width:990px){
+@media(max-width:995px){
     .home{
         flex-direction: column;
         margin:5rem 4rem;
         
     }
-    .home .home-content{
+    .home .home-content h3{
         font-size:2.5rem;
     }
     .home-content h1{
         font-size: 5rem;
     }
-    .home-img{
+    .home-img img{
+        width:70vw;
         margin-top:4rem;
     }
-
 }
 
 
