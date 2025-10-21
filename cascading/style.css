@@ -34,11 +34,7 @@ header{
     padding: 1rem 9%;
     filter: drop-shadow(10px);
 }
-img{
-    width: 550px;
-    height: 700px;
-    clip-path: circle(40%);
-}
+
 html{
     font-size: 65.5%;
 }
@@ -227,4 +223,5 @@ p{
     .home-img{
         margin-top:4rem;
     }
+
 }
