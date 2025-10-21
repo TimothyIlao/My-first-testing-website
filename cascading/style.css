@@ -161,15 +161,15 @@ p{
     transform: scale(1.3)translateY(-5px);
 }
 .butn{
-    letter-spacing: 0.3;
+    letter-spacing: 0.5;
     display:inline-block;
     padding: 1rem 2.8rem;
     background-color: black;
     border-radius: 3rem;
     color:#BC13FE;
-    font-size:2rem;
+    font-size: 1.5rem;
     font-family: 'press start 2p', cursive;
-    border: 1.5px solid #BC13FE;
+    border: 1px solid #BC13FE;
     transition: 0.2s ease;
     cursor: pointer;
 }
@@ -230,4 +230,5 @@ p{
     }
 
 }
+
 
