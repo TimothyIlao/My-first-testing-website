@@ -205,7 +205,7 @@ p{
         0%, 20%{
             content:"College student"
         }
-        0%, 20%{
+        21%, 40%{
             content:"Web developer"
         }
     }
@@ -232,6 +232,7 @@ p{
     }
 
 }
+
 
 
 
