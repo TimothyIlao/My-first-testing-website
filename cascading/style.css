@@ -36,6 +36,7 @@ header{
 }
 html{
     font-size: 65.5%;
+    scroll-behaviour: smooth;
 }
 .logo{
     font-size: 3rem;
@@ -228,5 +229,6 @@ p{
     }
 
 }
+
 
 
