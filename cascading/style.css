@@ -205,6 +205,9 @@ p{
         0%, 20%{
             content:"College student"
         }
+        0%, 20%{
+            content:"Web developer"
+        }
     }
 @media(max-width:1000px){
     .home{
@@ -229,6 +232,7 @@ p{
     }
 
 }
+
 
 
 
