@@ -203,10 +203,13 @@ p{
 }
     @keyframes words{
         0%, 20%{
-            content:"College student"
+            content:"College student";
         }
         21%, 40%{
-            content:"Web developer"
+            content:"Web developer";
+        }
+         41%, 60%{
+            content:"Game developer";
         }
     }
 @media(max-width:1000px){
@@ -232,6 +235,7 @@ p{
     }
 
 }
+
 
 
 
